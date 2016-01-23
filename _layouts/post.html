@@ -2,16 +2,18 @@
 layout: default
 ---
 
-<div class="post">
-  <div id="post">
+<div class="row">
+  <div class="post col-xs-12 col-sm-6 col-md-6">
     <h1>{{ page.title }}</h1>
+    <div class="content">
     {{ content }}
+    </div>
     <div class="written">
       <p>Written on {{ page.date | date: "%B %e, %Y" }}</p>
     </div>
   </div>
 
-  <div id="headshot" class="headshot">
+  <div class="headshot col-xs-12 col-sm-6 col-md-6">
     <img src="{{ site.baseurl }}/images/headshot.png">
   </div>
 </div>

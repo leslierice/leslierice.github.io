@@ -1,8 +1,15 @@
 .container {
   margin-top: 50px;
-  margin-left: 350px;
-  margin-right: 350px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 200px;
+    padding-right: 200px; } }
+.description {
+  margin-top: 15px; }
 
 .title {
   text-align: center; }
@@ -50,18 +57,22 @@ a:hover {
 
 .headshot img {
   width: 275px;
-  float: right;
-  border-radius: 50%; }
+  float: right; }
 
+@media (max-width: 768px) {
+  .headshot {
+    text-align: center; }
+    .headshot img {
+      width: 200px;
+      margin-top: 20px;
+      float: none;
+      padding-top: 20px; } }
 .written {
   margin-top: 20px;
   font-style: italic; }
 
-#post {
-  float: left;
-  margin-right: 20%; }
+.content {
+  margin-top: 20px; }
 
-#headshot {
-  margin-top: 20px;
-  float: right;
-  width: 20%; }
+.not-found {
+  text-align: center; }
