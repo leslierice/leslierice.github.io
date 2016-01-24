@@ -56,14 +56,15 @@ a:hover {
   color: #00abd7; }
 
 .headshot img {
-  width: 275px;
-  float: right; }
+  width: 360px;
+  float: right;
+  padding-top: 50px; }
 
 @media (max-width: 768px) {
   .headshot {
     text-align: center; }
     .headshot img {
-      width: 200px;
+      width: 360px;
       margin-top: 20px;
       float: none;
       padding-top: 20px; } }
